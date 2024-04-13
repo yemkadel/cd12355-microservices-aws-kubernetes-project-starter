@@ -1,4 +1,4 @@
-FROM python:3.8.0
+FROM public.ecr.aws/docker/library/python:3.10-slim-buster
 
 # Update the local package index with the latest packages from the repositories
 RUN apt-get update -y
