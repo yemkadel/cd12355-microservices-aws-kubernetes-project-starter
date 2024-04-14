@@ -9,12 +9,12 @@ RUN apt-get install build-essential libpq-dev -y
 # Update python modules to successfully build the required modules
 RUN pip install --upgrade pip setuptools wheel
 
-WORKDIR /src
+WORKDIR /workspace/Coworking-Project/analytics
 
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the application code to the container
+# Copy the application code to the container 
 COPY . .
 
 CMD [ "python", "app.py" ]
