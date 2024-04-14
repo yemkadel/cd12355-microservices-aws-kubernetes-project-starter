@@ -4,7 +4,7 @@ metadata:
   name: postgresql-service-postgresql
 data:
   DB_NAME: analytics_db
-  DB_USER: analytics_user
+  DB_USERNAME: analytics_user
   DB_HOST: postgresql-service
   DB_PORT: "5432"
 ---
