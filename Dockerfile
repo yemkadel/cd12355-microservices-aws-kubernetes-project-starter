@@ -9,7 +9,7 @@ RUN apt-get install build-essential libpq-dev -y
 # Update python modules to successfully build the required modules
 RUN pip install --upgrade pip setuptools wheel
 
-WORKDIR /workspace/Coworking-Project/analytics
+WORKDIR /analytics
 
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
