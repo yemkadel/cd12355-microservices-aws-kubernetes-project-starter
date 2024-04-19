@@ -12,7 +12,7 @@ The Coworking Space Service is a set of APIs that enables users to request one-t
 6. inspect that the pods and services all run properly
 7. Run "kubectl get svc" to get the loadbalancer Endpoint
 
-#### Verifying The Application
+#### Verifying The Application.
 * Generate report for check-ins grouped by dates
 `curl <LOADBALANCER_ENDPOINT>/api/reports/daily_usage`
 
