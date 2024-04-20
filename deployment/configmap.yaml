@@ -5,6 +5,6 @@ metadata:
 data:
   DB_NAME: postgres
   DB_USERNAME: postgres
-  DB_HOST: coworking-postgresql
+  DB_HOST: postgres-postgresql
   DB_PORT: "5432"
   
